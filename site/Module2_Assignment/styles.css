@@ -14,7 +14,7 @@
 		width: 25%;
 	}
 	.col-lg-4 {
-		width: 32%;
+		width: 33.333%;
 	}
 	.col-lg-5 {
 		width: 41.66%;
@@ -64,7 +64,7 @@
 		width: 41.66%;
 	}
 	.col-md-6 {
-		width: 48.5%;
+		width: 50%;
 	}
 	.col-md-7 {
 		width: 58.33%;
@@ -130,7 +130,7 @@
 }
 }
 body {
-	background-color: antiquewhite;
+	background-color: red;
 	font-family: initial;
 }
 h1{
@@ -145,24 +145,25 @@ h1{
 }
 #Outerbox
 {
-	font-family: sans-serif;
-	background-color: grey;
-	border: 2px solid black;
-	margin: 5px;
-	float: left;
-	box-sizing: border-box;
-	height: 200px;
+	padding: 5px;
+    box-sizing: border-box;
 }
 
-#Innerbox1
+.content-box{
+	background-color: grey;
+	font-family: sans-serif;
+	float: left;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.Innerbox
 {
 	font-weight: bold;
 	font-style: oblique;
 	text-align: center;
 	font-family: cursive;
-	background-color: pink;
-	border: 1px solid black;
-	padding: 10px;
 	width: 40%;
 	height: 40%;
 	font-size: 200%;
@@ -172,40 +173,18 @@ h1{
 	margin-left: auto;
 	margin-right: auto;
 
+
+}
+#Innerbox1
+{	
+	background-color: pink;
 }
 #Innerbox2
-{	font-weight: bold;
-	color: white;
-	font-style: oblique;
-	text-align: center;
-	font-family: cursive;
+{	
 	background-color: red;
-	border: 1px solid black;
-	padding: 10px;
-	width: 40%;
-	height: 40%;
-	font-size: 200%;
-	align-content: center;
-	box-sizing: border-box;
-	float: right;
-	margin-left: auto;
-	margin-right: auto;
+	color: white;
 }
 #Innerbox3
-{	font-weight: bold;
-	font-style: oblique;
-	text-align: center;
-	font-family: cursive;
+{	
 	background-color: yellow;
-	border: 1px solid black;
-	padding: 10px;
-	width: 40%;
-	height: 40%;
-	font-size: 200%;
-	align-content: center;
-	box-sizing: border-box;
-	float: right;
-	margin-left: auto;
-	margin-right: auto;
-
 }
